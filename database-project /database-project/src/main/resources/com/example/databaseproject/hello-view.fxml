@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.feedbacksystem.HelloController">
+  <TextField fx:id="contentField" promptText="Enter feedback content"/>
+  <ComboBox fx:id="ratingComboBox" promptText="Select Rating"/>
+  <Button text="Add Feedback" onAction="#handleAddFeedback"/>
+  <Button text="Delete Feedback" onAction="#handleDeleteFeedback"/>
+  <Button text="View All Feedbacks" onAction="#handleViewFeedbacks"/>
+</VBox>
+  
